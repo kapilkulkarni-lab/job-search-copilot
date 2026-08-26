@@ -1,5 +1,6 @@
 .env
 data/*.db
+data/digests/
 __pycache__/
 *.pyc
 *.egg-info/

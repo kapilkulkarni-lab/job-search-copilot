@@ -1,5 +1,5 @@
 """Entry point for the automated morning run: fetch postings, score the new ones,
-email a ranked digest. Invoked by Windows Task Scheduler via scripts/run_digest.bat.
+write a ranked digest PDF. Invoked by Windows Task Scheduler via scripts/run_digest.bat.
 
 Usage: python -m jobcopilot.digest
 """
@@ -9,7 +9,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from jobcopilot import email_sender, pipeline
+from jobcopilot import pdf_writer, pipeline
 from jobcopilot.claude_client import get_client
 
 LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
@@ -50,15 +50,11 @@ def main() -> int:
         log.warning(w)
 
     threshold = config.get("score_threshold", 70)
-    to_send = [sj for sj in scored if sj.score >= threshold]
-    log.info("%d posting(s) meet the score threshold (%d).", len(to_send), threshold)
+    matches = [sj for sj in scored if sj.score >= threshold]
+    log.info("%d posting(s) meet the score threshold (%d).", len(matches), threshold)
 
-    try:
-        email_sender.send_digest(to_send, warnings)
-        log.info("Digest email sent (%d posting(s)).", len(to_send))
-    except email_sender.EmailNotConfigured as e:
-        log.error("Digest not sent: %s", e)
-        return 1
+    path = pdf_writer.write_digest_pdf(matches, warnings)
+    log.info("Digest written to %s", path)
 
     return 0
 
