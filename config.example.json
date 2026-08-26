@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "name": "",
+    "clearance": "",
+    "education": "",
+    "target_roles": [],
+    "skills": [],
+    "summary": ""
+  },
+  "greenhouse_slugs": [],
+  "lever_slugs": [],
+  "usajobs_keywords": [],
+  "usajobs_location": "",
+  "score_threshold": 70,
+  "data_dir": "data"
+}
