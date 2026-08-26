@@ -31,7 +31,7 @@ def test_cloud_send_parses_and_sends(tmp_path, monkeypatch):
     path = tmp_path / "scored.json"
     path.write_text(json.dumps(payload), encoding="utf-8")
 
-    with patch("jobcopilot.cloud_send.email_sender.send_digest") as send:
+    with patch("jobcopilot.cloud_send.gmail_api_sender.send_digest_via_gmail_api") as send:
         monkeypatch.setattr("sys.argv", ["cloud_send.py", str(path)])
         assert cloud_send_main() == 0
 

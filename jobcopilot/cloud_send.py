@@ -1,6 +1,8 @@
 """Send the digest email for the cloud routine, given the scores the routine's own
-reasoning already produced. Reuses the same tested email_sender logic the local
-digest.py uses instead of hand-writing SMTP/HTML each run. No Claude API call here.
+reasoning already produced. Reuses the same tested build_digest HTML logic the local
+digest.py uses, but sends via the Gmail API over HTTPS (jobcopilot.gmail_api_sender)
+instead of raw SMTP — the cloud sandbox's network policy allows outbound HTTPS to
+allowlisted domains but blocks SMTP (port 465) entirely. No Claude API call here.
 
 Usage: python -m jobcopilot.cloud_send scored.json
 Input JSON shape:
@@ -17,7 +19,7 @@ from __future__ import annotations
 import json
 import sys
 
-from jobcopilot import email_sender
+from jobcopilot import gmail_api_sender
 from jobcopilot.models import Job, ScoredJob
 
 
@@ -42,7 +44,7 @@ def main() -> int:
             matched_skills=item.get("matched_skills", []),
         ))
 
-    email_sender.send_digest(scored, data.get("warnings", []))
+    gmail_api_sender.send_digest_via_gmail_api(scored, data.get("warnings", []))
     print(f"Sent digest with {len(scored)} posting(s).")
     return 0
 
