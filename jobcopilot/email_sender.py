@@ -34,13 +34,17 @@ def build_digest(scored_jobs: list[ScoredJob], warnings: list[str]) -> tuple[str
     for sj in ranked:
         j = sj.job
         skills = ", ".join(sj.matched_skills) if sj.matched_skills else ""
+        skills_html = (
+            f"<br><span style='color:#999;font-size:0.85em'>Matches: {skills}</span>"
+            if skills else ""
+        )
         rows.append(
             "<tr>"
             f"<td style='padding:8px;font-weight:bold'>{sj.score}</td>"
             f"<td style='padding:8px'><a href='{j.url}'>{j.title}</a><br>"
             f"<span style='color:#555'>{j.company} — {j.location}</span><br>"
             f"<span style='color:#777;font-size:0.9em'>{sj.rationale}</span>"
-            f"{f'<br><span style=\"color:#999;font-size:0.85em\">Matches: {skills}</span>' if skills else ''}"
+            f"{skills_html}"
             "</td></tr>"
         )
 
