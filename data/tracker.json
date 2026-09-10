@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "last_updated": "2026-09-06T09:00:00+00:00",
+    "note": "Day 10 (2026-09-06) run: re-fetched all 3 tracked boards in full (135 pass the keyword prefilter). 2 previously-open Anduril reqs no longer appear on the board and are marked closed (GNC Engineer greenhouse:4632178007 -- note this is the req linked to the user's own 'Applied' record for Anduril GNC Engineer, so its removal from the board may signal a hiring decision; and Senior GNC Engineer, Robotics greenhouse:4588656007). 1 new GNC-titled req appeared: Shield AI 'Sr. Staff Engineer, GNC - BlueSky (R5798)', Remote -- but requires 7+ years experience, tracked for completeness only, not a near-term personal fit. No other genuinely new GNC/flight-controls-titled, region-matching postings on the 3 tracked boards (of 110 other prefilter-passing titles, none were GNC/flight-controls/system-safety-titled AND in one of the 4 target regions). Gmail checked for new application-status updates since the user's 2026-09-03 email -- none found; application status is unchanged from Day 9. Web sweep (LinkedIn, Indeed, Glassdoor, aerospace/startup job boards) across all 4 regions, explicitly re-weighted toward air-vehicle (not satellite/spacecraft) roles per the user's instruction to focus on air vehicles: found Delta Black Aerospace's GNC/Simulation Engineer role on the RAIDER 330 UAS (McKinney, TX) -- the most direct air-vehicle GNC match found in 10 days -- added to the watchlist. Reconfirmed AeroVironment, Reliable Robotics, Shield AI's GNC Engineering Intern, K2 Space, and Vast Space watchlist entries are all still open. Also found (but did not add to the watchlist, as spacecraft/satellite rather than air-vehicle programs consistent with today's air-vehicle focus): Astranis Space Technologies GNC Engineer Intern (San Francisco, CA) and Intuitive Machines GNC Engineer (Houston, TX, lunar lander program)."
+  },
+  "tracked_board_jobs": [
+    {
+      "key": "greenhouse:5158222007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Chief Engineer, Autonomous Flight",
+      "location": "Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158222007?gh_jid=5158222007",
+      "posted_at": "2026-07-29T15:46:59-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5082537007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Explosives System Safety Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5082537007?gh_jid=5082537007",
+      "posted_at": "2026-03-17T17:43:05-04:00",
+      "status": "closed",
+      "closed_noted_at": "2026-09-04",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4632178007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4632178007?gh_jid=4632178007",
+      "posted_at": "2025-01-23T16:00:13-05:00",
+      "status": "closed",
+      "first_seen_at": "2026-09-03",
+      "closed_noted_at": "2026-09-06"
+    },
+    {
+      "key": "greenhouse:5159698007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer",
+      "location": "Seattle, Washington, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5159698007?gh_jid=5159698007",
+      "posted_at": "2026-06-09T09:59:04-04:00",
+      "status": "closed",
+      "closed_noted_at": "2026-09-04",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4870847007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer, Space",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870847007?gh_jid=4870847007",
+      "posted_at": "2025-09-11T13:59:39-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4870871007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer, Space",
+      "location": "Washington, District of Columbia, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870871007?gh_jid=4870871007",
+      "posted_at": "2025-09-11T13:59:40-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5178086007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "GNC Software Engineer",
+      "location": "Waltham, Massachusetts, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178086007?gh_jid=5178086007",
+      "posted_at": "2026-07-01T12:29:10-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4904013007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Guidance Navigation and Control (GNC) Engineer, Air Dominance & Strike",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4904013007?gh_jid=4904013007",
+      "posted_at": "2025-09-18T13:48:38-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5024955007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Guidance Navigation and Control (GNC) Engineer, Air Dominance & Strike - Advanced Effects",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5024955007?gh_jid=5024955007",
+      "posted_at": "2026-01-14T20:56:43-05:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5210670007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Guidance, Navigation & Control (GNC) Engineer - Navigation and Estimation- Air Dominance & Strike",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210670007?gh_jid=5210670007",
+      "posted_at": "2026-08-12T14:58:51-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5061318007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Guidance, Navigation & Control (GNC) Engineer - Rotorcraft/VTOL",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5061318007?gh_jid=5061318007",
+      "posted_at": "2026-09-01T11:33:33-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5148654007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior GNC Engineer",
+      "location": "Seattle, Washington, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148654007?gh_jid=5148654007",
+      "posted_at": "2026-06-01T13:13:05-04:00",
+      "status": "closed",
+      "closed_noted_at": "2026-09-04",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4588656007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior GNC Engineer, Robotics",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4588656007?gh_jid=4588656007",
+      "posted_at": "2024-11-22T12:49:05-05:00",
+      "status": "closed",
+      "first_seen_at": "2026-09-03",
+      "closed_noted_at": "2026-09-06"
+    },
+    {
+      "key": "greenhouse:5093879007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior GNC Engineer, Space",
+      "location": "Washington, District of Columbia, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5093879007?gh_jid=5093879007",
+      "posted_at": "2026-03-30T23:50:19-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4870874007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior GNC Engineer, Space",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870874007?gh_jid=4870874007",
+      "posted_at": "2025-09-11T13:59:41-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5213232007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior GNC Software Engineer",
+      "location": "Waltham, Massachusetts, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5213232007?gh_jid=5213232007",
+      "posted_at": "2026-08-16T19:56:55-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5024971007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior Guidance Navigation and Control (GNC) Engineer, Air Dominance & Strike - Advanced Effects",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5024971007?gh_jid=5024971007",
+      "posted_at": "2026-01-14T20:56:44-05:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:4911548007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior Guidance, Navigation & Control (GNC) Engineer, Air Dominance & Strike",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4911548007?gh_jid=4911548007",
+      "posted_at": "2025-09-18T13:48:40-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5041330007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior Guidance, Navigation & Control (GNC) Engineer - Navigation and Estimation- Air Dominance & Strike",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5041330007?gh_jid=5041330007",
+      "posted_at": "2026-08-12T14:52:26-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5227286007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior Guidance, Navigation & Control (GNC) Engineer - Rotorcraft/VTOL",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227286007?gh_jid=5227286007",
+      "posted_at": "2026-09-01T11:35:46-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5158066007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior System Safety Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158066007?gh_jid=5158066007",
+      "posted_at": "2026-06-08T14:16:07-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5227289007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Staff Guidance, Navigation & Control (GNC) Engineer - Rotorcraft/VTOL",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227289007?gh_jid=5227289007",
+      "posted_at": "2026-09-01T11:38:13-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5158089007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Staff System Safety Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158089007?gh_jid=5158089007",
+      "posted_at": "2026-06-08T14:16:11-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "greenhouse:5158195007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Systems Safety Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158195007?gh_jid=5158195007",
+      "posted_at": "2026-06-08T14:16:02-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:07546f7f-9a69-4adb-96d6-f94505e7523f",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Engineer II, Flight Controls - X-BAT (R4816)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/07546f7f-9a69-4adb-96d6-f94505e7523f",
+      "posted_at": "2026-04-15T22:49:20.874000+00:00",
+      "status": "closed",
+      "first_seen_at": "2026-09-03",
+      "closed_noted_at": "2026-09-05"
+    },
+    {
+      "key": "lever:133ad6aa-d624-4fad-b1cc-1f8f42d0401f",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Senior Engineer, State Estimation (Hiring At Multiple Levels)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/133ad6aa-d624-4fad-b1cc-1f8f42d0401f",
+      "posted_at": "2025-11-04T17:48:55.706000+00:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:90d8c031-bbdb-4b54-9e03-7b76a320f5fe",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Principal Engineer, State Estimation (Dallas, TX)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/90d8c031-bbdb-4b54-9e03-7b76a320f5fe",
+      "posted_at": "2026-07-09T16:00:05.976000+00:00",
+      "status": "closed",
+      "closed_noted_at": "2026-09-04",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:e764ace5-77fb-4f03-b21e-4e9149e356a6",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Senior Engineer, Flight Controls - X-BAT (R4814)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/e764ace5-77fb-4f03-b21e-4e9149e356a6",
+      "posted_at": "2026-04-15T22:39:49.821000+00:00",
+      "status": "closed",
+      "first_seen_at": "2026-09-03",
+      "closed_noted_at": "2026-09-05"
+    },
+    {
+      "key": "lever:0c6acdd5-a39b-4ad3-84fa-b1a1f83409d3",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Senior Engineer, State Estimation (R5165)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/0c6acdd5-a39b-4ad3-84fa-b1a1f83409d3",
+      "posted_at": "2025-10-17T21:45:41.687000+00:00",
+      "status": "closed",
+      "closed_noted_at": "2026-09-04",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:8017692b-13a7-4fd2-b0c3-e8008f2e4d29",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Senior Manager, GNC (R5627)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/8017692b-13a7-4fd2-b0c3-e8008f2e4d29",
+      "posted_at": "2026-08-12T19:25:07.908000+00:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:71278ad9-359f-48dd-bad4-fc63ab6b9f1d",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Senior Engineer, Flight Controls - X-BAT (Hiring At Multiple Levels) (R4812)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/71278ad9-359f-48dd-bad4-fc63ab6b9f1d",
+      "posted_at": "2026-04-15T22:20:33.337000+00:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:86bbc19b-138b-4974-b27a-ad488230669e",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Staff Engineer, Flight Controls - X-BAT (R4813)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/86bbc19b-138b-4974-b27a-ad488230669e",
+      "posted_at": "2026-04-15T22:33:00.337000+00:00",
+      "status": "closed",
+      "first_seen_at": "2026-09-03",
+      "closed_noted_at": "2026-09-05"
+    },
+    {
+      "key": "lever:7d210135-6de0-4433-bd46-198035378bb8",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Staff Engineer, Guidance & Controls (R4763)",
+      "location": "Dallas, Texas",
+      "url": "https://jobs.lever.co/shieldai/7d210135-6de0-4433-bd46-198035378bb8",
+      "posted_at": "2026-04-07T18:36:33.850000+00:00",
+      "status": "open",
+      "first_seen_at": "2026-09-03"
+    },
+    {
+      "key": "lever:b3bb2565-135f-4bb7-93b3-2599bab544dc",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "Sr. Staff Engineer, GNC - BlueSky (R5798)",
+      "location": "Remote",
+      "url": "https://jobs.lever.co/shieldai/b3bb2565-135f-4bb7-93b3-2599bab544dc",
+      "posted_at": "2026-08-27T02:37:54.355000+00:00",
+      "status": "open",
+      "first_seen_at": "2026-09-06"
+    }
+  ],
+  "watchlist_companies": [
+    {
+      "company": "Delta Black Aerospace",
+      "location": "McKinney, TX",
+      "why": "NEW (2026-09-06). Small veteran-founded UAS OEM building the RAIDER 330 (patented Group 3 UAS with Group 4 capability) -- an actual air vehicle, not a satellite/spacecraft program. Open 'Guidance, Navigation & Control (GNC) and Simulation Engineer' req: owns navigation/autonomy architecture, GPS-denied and contested-environment performance, Simulink required. Highly-technical, high-impact role on what reads as a very small team -- direct match to the quadrotor GNC/Simulink background and no application on file yet.",
+      "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/7dc536ac-3d4a-4b3e-9f2f-df8bcd5c4e3d/Delta-Black-Aerospace-Inc",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "AeroVironment",
+      "location": "Herndon / Arlington, VA; Annapolis Junction / Germantown, MD (also Simi Valley, CA for a Summer 2027 cycle)",
+      "why": "NEW (2026-09-05). Publicly traded UAS/air-vehicle maker with an open 'GNC / Autonomy Intern' program (12-week onsite, flight control algorithms, flight testing, sim environments) -- one of the only confirmed GNC-titled internships found anywhere in DC Metro, the thinnest tracked region, across 9 days of searching. No application on file yet.",
+      "careers_url": "https://avav.wd1.myworkdayjobs.com/AVAV",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "Reliable Robotics",
+      "location": "Mountain View, CA",
+      "why": "Full GNC ladder plus a specific 'Flight Control Law Engineer (Internship)' req open now -- junior/senior standing eligible, control laws for autotaxi/autoland/rollout, SIL/HIL testing. Best tooling/domain match found to date (retrofits real aircraft for autonomous operation) and no application on file yet.",
+      "careers_url": "https://jobs.lever.co/reliable/d38698e3-c5ee-4f30-9ea2-ddc30dca1a2e",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "Shield AI",
+      "location": "Dallas, TX",
+      "why": "One of the 3 tracked boards, but the user has never applied there directly. A 'GNC Engineering Intern (Dallas Metro Area)' req is open now: MATLAB/Simulink/C++/Python, tiered hourly pay by degree level plus a housing stipend -- a direct skills match and the strongest Texas opportunity found.",
+      "careers_url": "https://jobs.lever.co/shieldai",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "K2 Space Corporation",
+      "location": "El Segundo / Los Angeles, CA",
+      "why": "NEW (2026-09-05). Has both a Summer 2026 and a Summer 2027 'GNC Engineering Intern' req open -- the 2027 cycle lines up exactly with a May 2027 graduation. 6DOF simulation and attitude/orbit control algorithms, direct match to the quadrotor sim background under Dr. Atkins.",
+      "careers_url": "https://job-boards.greenhouse.io/k2spacecorporation",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "Vast Space",
+      "location": "Long Beach, CA",
+      "why": "NEW (2026-09-05). Open '2026 Summer Internship - GNC Engineering' req: orbital mechanics, spacecraft attitude dynamics, control systems, sequential filtering, MATLAB/Simulink. Fast-growing, well-funded space station startup.",
+      "careers_url": "https://www.linkedin.com/jobs/view/2026-summer-internship-gnc-engineering-at-vast-4296418453",
+      "last_checked": "2026-09-06"
+    },
+    {
+      "company": "Specter Aerospace",
+      "location": "Peabody, MA",
+      "why": "Hypersonic/supersonic airbreathing testbed vehicles. Entry-level 'GNC Engineer I/II' rung plus a GNC Engineering Co-op (Fall 2026) and a GNC Co-op (Spring 2027, $48-62.6K) -- timed for a May 2027 graduation. Explicitly wants MATLAB/Simulink plus C++. Kept on watchlist -- still the best confirmed Boston-region fit despite two follow-up sweeps not finding anything better there.",
+      "careers_url": "https://www.specteraerospace.com/join-us",
+      "last_checked": "2026-09-01"
+    }
+  ],
+  "applications": [
+    {
+      "job_key": "manual:northrop-grumman-2026-associate-gnc-engineer",
+      "company": "Northrop Grumman",
+      "title": "2026 Associate Guidance Navigation Control Engineer",
+      "status": "Offer",
+      "notes": "Offer received (per user's 2026-09-03 email). Not one of the 3 tracked boards -- large prime, tracked manually.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:anduril-gnc-engineer-rotorcraft-vtol",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer (Rotorcraft/VTOL)",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user). Matches tracked-board posting greenhouse:5061318007.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:anduril-gnc-engineer",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user). Matches tracked-board posting greenhouse:4632178007.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:ventus-solutions-gnc-engineer",
+      "company": "Ventus Solutions",
+      "title": "GNC Engineer",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user). Likely same org as 'Ventus Executive Solutions' noted in DC Metro region activity.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:varda-space-industries-unspecified",
+      "company": "Varda Space Industries",
+      "title": "(role unspecified)",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user). Varda has an open 'GNC Internship - Summer 2026' req (El Segundo, CA) found in today's web sweep -- may be the same role; unconfirmed.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:quantum-space-spacecraft-gnc-engineer",
+      "company": "Quantum Space",
+      "title": "Spacecraft Guidance, Navigation & Control Engineer",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user).",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:evona-gnc-engineer",
+      "company": "EVONA",
+      "title": "GNC Engineer",
+      "status": "Applied",
+      "notes": "Application received/in progress (per user). EVONA is an aerospace/defense recruiting firm -- likely placing for an undisclosed client.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:skyryse-gnc-engineer",
+      "company": "Skyryse",
+      "title": "Guidance, Navigation and Control Engineer",
+      "status": "Rejected",
+      "notes": "Not moving forward (per user) -- this was the full-time GNC Engineer req, not the 'GNC Engineering Intern (Summer 2026)' req added to the watchlist on 9/4; the internship may still be worth a separate application.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:auterion-unspecified",
+      "company": "Auterion",
+      "title": "(role unspecified)",
+      "status": "Rejected",
+      "notes": "Not moving forward (per user).",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:anduril-gnc-engineer-space",
+      "company": "Anduril Industries",
+      "title": "GNC Engineer, Space",
+      "status": "Rejected",
+      "notes": "Not moving forward (per user). Matches tracked-board posting greenhouse:4870847007 (Costa Mesa) or greenhouse:4870871007 (DC) -- both still show as open reqs on the board.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    },
+    {
+      "job_key": "manual:firefly-aerospace-ee-internship",
+      "company": "Firefly Aerospace",
+      "title": "Internship - Electrical Engineering",
+      "status": "Rejected",
+      "notes": "Not moving forward (per user). Distinct from Firefly's GNC-titled internship cycle found in today's web sweep (Austin/Cedar Park, TX) -- that one may still be worth pursuing.",
+      "source": "user_reported",
+      "as_of": "2026-09-03"
+    }
+  ],
+  "skill_gaps_ranked": [
+    "C/C++ for embedded/real-time flight software -- #1 gap by a wide margin across every GNC/flight-controls posting tracked since 8/28. Resume lists Python/Java, not C/C++.",
+    "State estimation / Kalman filtering (EKF/UKF) & sensor fusion -- Shield AI's dedicated State Estimation ladder, Anduril's Navigation & Estimation track and Estimation & Filtering roles all want this explicitly.",
+    "PX4/ArduPilot autopilot stack -- Auterion, Delta Black Aerospace, Allen Control Systems, Skyways all want hands-on autopilot-stack experience.",
+    "Trajectory optimization tooling (GPOPS-II, CasADi, Dymos, IPOPT) -- recurring Anduril preferred qualification.",
+    "Simulink-to-C/C++ auto code generation -- bridges directly from existing Simulink skill; probably the fastest of the five to close."
+  ],
+  "region_activity_notes": {
+    "california": "Deepest and most active region for startup-stage GNC/flight-controls hiring; now also the strongest single fit found (Skyryse's Summer 2026 GNC intern req, added 9/4).",
+    "texas": "Second deepest region and strengthened today: Delta Black Aerospace's McKinney-based GNC/Simulation Engineer req (RAIDER 330 UAS) is the most direct air-vehicle GNC match found anywhere in 10 days of tracking, alongside Shield AI (Dallas) and Firefly Aerospace (Austin).",
+    "boston": "Real bench: Anduril Waltham, Specter Aerospace, MORSE Corp, Alakai Technologies (unverified).",
+    "dc_metro": "Still the thinnest region for startup-stage roles, though AeroVironment's GNC/Autonomy Intern (Arlington, VA among its sites) remains a genuine, confirmed-open startup-adjacent fit; otherwise activity skews to large primes/contractors (Northrop Grumman, SAIC, Kratos) rather than startups."
+  }
+}
