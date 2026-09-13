@@ -1,0 +1,5 @@
+{
+  "_readme": "Tracks status of positions actually applied to (Not Applied | Applied | Interview | Offer | Rejected). Updated by the cloud routine when the user reports a status change, or when a position is marked applied. Starts empty: on 2026-09-13 no prior application record was found in Gmail, Google Drive, or this repo, so this is the baseline going forward.",
+  "last_run": "2026-09-13",
+  "applications": []
+}
