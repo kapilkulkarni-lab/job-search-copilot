@@ -25,7 +25,7 @@
     "summary": "Rising senior at Virginia Tech (B.S. Aerospace and Ocean Engineering, minors in CS and Business, GPA 3.93, expected May 2027), working at the intersection of autonomous flight and system safety. Built a nonlinear 6-DOF quadrotor simulation in MATLAB from the ground up under Dr. Ella Atkins in the Autonomous Aerospace Systems lab (full rigid-body dynamics, cascaded PID flight controller, modular guidance library for parametric trajectories/multi-waypoint navigation/geometric shape-following), validated against hardware in a motion-capture environment. Currently interning at Boeing Phantom Works as a System Safety Engineering intern, conducting Functional Hazard Assessments and Fault Tree Analyses for the MQ-28 Ghost Bat UCAV program (MIL-STD-882E methods, mission requirements to hardware/software safety constraints). Previously interned with the U.S. Government (TS/SCI) shaping satellite communications architecture, and led a NASA Micro-g NExT team to three successful NBL validations (32% deployment-time reduction on an EVA tool). TS/SCI cleared."
   },
   "greenhouse_slugs": ["andurilindustries", "vannevarlabs"],
-  "lever_slugs": ["shieldai"],
+  "lever_slugs": ["shieldai", "merlinlabs", "crgo"],
   "usajobs_keywords": ["autonomous systems engineer", "systems safety engineer", "UAS engineer"],
   "usajobs_location": "",
   "score_threshold": 70,
