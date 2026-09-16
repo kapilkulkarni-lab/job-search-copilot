@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-09-15T09:00:00+00:00",
-    "note": "Day 11 run (2026-09-15) -- first run in 9 days since Day 10 (2026-09-06); treated as a catch-up sweep, not a single day's delta. Re-fetched all 3 tracked boards in full (42 postings now pass the keyword prefilter, up from 34): 14 new prefilter-passing reqs appeared, including a new Anduril 'Senior GNC Engineer' req in Quincy, MA -- the first new-region GNC-titled opening in Boston in the tracking period -- and two Anduril Costa Mesa 'Flight Test Engineer - Mission Autonomy (UAS - Fury)' reqs (air-vehicle flight test, autonomy-adjacent). The Waltham 'GNC Software Engineer' and 'Senior GNC Software Engineer' reqs closed and reopened same-day under new IDs (treated as a board refresh, not a real closure). Gmail checked and found one unprocessed application-status email from 2026-09-08 (user applied to Applied Intuition x2, Intuitive Machines, Sky Limit Systems, and Tera AI over the prior week) -- all 5 persisted to tracker.applications; no further updates found since. Web sweep (LinkedIn, Indeed, aerospace startup sites) across all 4 regions surfaced 5 new watchlist companies not yet applied to: Electra.aero (DC Metro, eSTOL fixed-wing), Pivotal (CA, Helix eVTOL), Skydio (CA, fixed-wing autonomy), American Drone Company (TX, unverified), and SwarmInt LLC (DC Metro, no confirmed req yet)."
+    "last_updated": "2026-09-16T09:05:41+00:00",
+    "note": "Day 16 (2026-09-16) run, continuing from the 2026-09-15 catch-up state (recovered from the claude/bold-clarke-avro12 branch -- main is still stuck at the 2026-09-06 merge and PR #2 remains open/unmerged since 2026-09-10; see report for the persistence housekeeping note). Re-fetched all 3 tracked boards live: 36 previously-open GNC/flight-controls/state-estimation/system-safety postings are all still open (0 closures), and 1 new GNC-titled req appeared (Anduril 'Senior Explosives System Safety Engineer', Costa Mesa, posted 9/15). Also flagged Anduril's new 'Flight Test Engineer - Imaging' (Waltham, MA, posted 9/10) as a Boston-region adjacent find. Gmail checked for status updates since the user's 2026-09-08 email -- none found. Web sweep across all 4 regions, focused on air vehicles: verified Alaka'i Technologies (Stow, MA) as a real, open GNC Engineer req on a hydrogen eVTOL aircraft -- added to watchlist, resolving the prior 'unverified' flag on this company. Also verified SwarmInt LLC's (Arlington, VA) Robotics & UAS Software Engineer req as real/open with a direct apply link -- upgraded from 'watchlist only, no confirmed req' to confirmed. 'American Drone Company' (New Braunfels, TX) remains unverified -- no independent company website/domain found beyond aggregator listings."
   },
   "tracked_board_jobs": [
     {
@@ -545,6 +545,17 @@
       "posted_at": "",
       "status": "open",
       "first_seen_at": "2026-09-15"
+    },
+    {
+      "key": "greenhouse:5238736007",
+      "source": "greenhouse",
+      "company": "Anduril Industries",
+      "title": "Senior Explosives System Safety Engineer",
+      "location": "Costa Mesa, California, United States",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5238736007?gh_jid=5238736007",
+      "posted_at": "2026-09-15T10:50:54-04:00",
+      "status": "open",
+      "first_seen_at": "2026-09-16"
     }
   ],
   "watchlist_companies": [
@@ -628,9 +639,16 @@
     {
       "company": "SwarmInt LLC",
       "location": "Arlington, VA",
-      "why": "NEW (2026-09-15). Small DC-area swarm-drone autonomy startup; no confirmed GNC-titled req yet but worth monitoring given the scarcity of startup-stage air-vehicle activity in DC Metro.",
-      "careers_url": "https://www.swarmint.com/careers",
-      "last_checked": "2026-09-15"
+      "why": "UPDATED (2026-09-16). Confirmed open req: 'Robotics & UAS Software Engineer' -- ArduPilot-based flight controller customization, autonomy features, sensor/hardware integration, flight testing. TS clearance required (matches TS/SCI on file). Previously watchlist-only with no confirmed GNC-titled req; now a confirmed, direct-apply, air-vehicle-relevant opening.",
+      "careers_url": "https://swarmint1.applytojob.com/apply/SbKn7140pU/Robotics-UAS-Software-Engineer",
+      "last_checked": "2026-09-16"
+    },
+    {
+      "company": "Alaka'i Technologies",
+      "location": "Stow, MA",
+      "why": "NEW (2026-09-16). Hydrogen-powered eVTOL air-mobility maker just outside Boston. Open 'Guidance, Navigation, and Control (GNC) Engineer' req: develops/tests/deploys GNC algorithms for unmanned aircraft -- resolves the 'Alakai Technologies (unverified)' note carried in region_activity_notes since 9/12; confirmed real and open. Best Boston-region air-vehicle GNC fit found to date, no application on file.",
+      "careers_url": "https://www.indeed.com/cmp/Alakai-Technologies",
+      "last_checked": "2026-09-16"
     }
   ],
   "applications": [
@@ -789,7 +807,7 @@
   "region_activity_notes": {
     "california": "Still the deepest, most active region. Today added Pivotal (Helix eVTOL GNC + intern pipeline) and Skydio (fixed-wing autonomy/controls) to the watchlist, plus new Anduril Costa Mesa 'Flight Test Engineer - Mission Autonomy (UAS - Fury)' reqs (x2) and a Shield AI 'Senior Staff Engineer, Autonomous Systems Integration' req in San Diego.",
     "texas": "Unchanged bench (Delta Black Aerospace, Shield AI, Firefly Aerospace) plus one new, unverified watchlist add: American Drone Company (New Braunfels) -- confirm the req is live before applying.",
-    "boston": "First real movement in this region in over a week: Anduril opened a 'Senior GNC Engineer' req in Quincy, MA (new office/site, not previously seen) alongside the Waltham GNC Software Engineer / Senior GNC Software Engineer reqs reopening under new IDs same day. Specter Aerospace remains the best startup-stage fit.",
-    "dc_metro": "Still the thinnest region for confirmed open air-vehicle GNC reqs, but today surfaced two new watchlist companies: Electra.aero (Manassas, VA eSTOL aircraft, open Flight Controls Engineer reqs) and SwarmInt LLC (Arlington swarm-drone startup, no confirmed req yet). AeroVironment's GNC/Autonomy Intern remains the most concrete confirmed-open fit."
+    "boston": "Strengthening: Anduril's new Quincy, MA 'Senior GNC Engineer' (added 9/15) plus a new 'Flight Test Engineer - Imaging' req in Waltham (posted 9/10) show real tracked-board movement, and Alaka'i Technologies (Stow, MA) is now a confirmed, verified, air-vehicle GNC opening -- the best Boston-region fit found in the whole tracking period. Specter Aerospace remains the other solid confirmed fit.",
+    "dc_metro": "Still thinner than CA/TX for startup-stage roles, but improving: SwarmInt LLC's ArduPilot/UAS Robotics & UAS Software Engineer req is now confirmed open (TS clearance match), alongside AeroVironment's GNC/Autonomy Intern and Electra.aero's Flight Controls Engineer reqs. Non-startup activity (SAIC, Kratos, Northrop Grumman, Lockheed Martin) continues to dominate raw volume in this region."
   }
 }
